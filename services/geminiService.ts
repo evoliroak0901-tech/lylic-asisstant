@@ -1,5 +1,5 @@
 
-import { GoogleGenAI, Chat, Type, Modality } from "@google/genai";
+import { GoogleGenAI, Chat, Type, Modality } from "@google/generative-ai";
 import { PromptParams, ArtistAnalysisResult, VisualPromptResult, AudioAnalysisResult, VideoPromptResult } from "../types";
 import { GENRES, VOCAL_TEXTURES, EMPHASIS_INSTRUMENTS } from "../constants";
 
