@@ -6,7 +6,7 @@ import { GENRES, VOCAL_TEXTURES, EMPHASIS_INSTRUMENTS } from "../constants";
 // Helper to get client with env key
 const getAiClient = () => {
     // Guidelines: Use process.env.API_KEY directly with named parameter.
-    return new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+  return new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 };
 
 export const convertToHiragana = async (text: string): Promise<string> => {
