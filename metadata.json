@@ -1,0 +1,5 @@
+{
+  "name": "Suno Lyric Assist",
+  "description": "A specialized lyric editor for Suno AI, featuring auto-formatting, AI Hiragana conversion, and one-tap meta tag insertion in an orange-themed UI.",
+  "requestFramePermissions": []
+}
